@@ -8,7 +8,7 @@ Bu proje, **Domain-Driven Design (DDD)** prensiplerine uygun olarak geliştirilm
 ## 🏗️ Proje Yapısı
 
 ```
-├── Order.WepApi               # API katmanı (Controller, DTO, Dependency Injection)
+├── Order.WepApi            # API katmanı (Controller, DTO, Dependency Injection)
 ├── Order.Application       # Uygulama katmanı (CQRS, servisler, use case'ler)
 ├── Order.Domain            # Domain katmanı (Entity, Value Object, Aggregate, Domain Event)
 ├── Order.Infrastructure    # Altyapı katmanı (EF Core, Repository implementasyonları)
